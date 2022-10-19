@@ -1,7 +1,15 @@
 from easyAI import TwoPlayerGame, Human_Player, AI_Player, Negamax
 
-"https://pl.wikipedia.org/wiki/Nim"
-"Gra NIM w wariancji 'Taktix' z kolumną - Taktix: 16 pionków ustawiamy w kwadrat 4x4. wolno zbierać dowolną ilość kamieni byle z tylko jednej kolumny"
+"""https://pl.wikipedia.org/wiki/Nim
+Gra NIM w wariancji 'Taktix' z kolumną - Taktix: 16 pionków ustawiamy w kwadrat 4x4. wolno zbierać dowolną ilość kamieni byle z tylko jednej kolumny
+
+Jak przygotwac srodowisko do gry:
+     - Zainstalowac easyAI - pip install easyai
+
+    Autorzy:
+     - Jakub Gwiazda(s20497)
+     - Artur Jankowski(s21161)
+     """
 
 
 class Nim(TwoPlayerGame):
